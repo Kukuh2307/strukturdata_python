@@ -1,0 +1,5 @@
+print(150+200)
+print(6+550)
+print(7**2)
+print(5.25 + 6.25)
+print(9%2)
