@@ -1,0 +1,20 @@
+from traceback import print_tb
+import numpy as np
+x = np.array([[1,2],[3,4]], dtype=np.float64)
+y = np.array([[5,6],[7,8]], dtype=np.float64)
+
+print("Operasi Aritmatika")
+print(x+y)
+print(np.add(x,y))
+
+print("\nOperasi Pengurangan")
+print(x-y)
+print(np.subtract(x,y))
+
+print("\nOperasi Perkalian")
+print(x*y)
+print(np.multiply(x,y))
+
+print("\nOperasi Pembagian")
+print(x/y)
+print(np.divide(x,y))
