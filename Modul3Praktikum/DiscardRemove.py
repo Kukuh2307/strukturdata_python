@@ -11,3 +11,4 @@ mySet.discard(2)
 print(mySet)
 
 # mySet.remove(2)
+# print(mySet)
