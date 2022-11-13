@@ -3,6 +3,7 @@ def selectionSort(alist):
     for i in range (n-1):
         currenminimum = i
         for j in range (i+1, n):
+            # jika ingin sorting secara desc tinggal mengubah lebih besar menjadi lebih kecil
             if alist[j] < alist[currenminimum]:
                 currenminimum = j
         alist[i], alist[currenminimum] = alist[currenminimum], alist[i]
